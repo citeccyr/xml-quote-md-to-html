@@ -1,0 +1,29 @@
+{
+  "name": "xml-quote-md-to-html",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Convert the Markdown content in the XML's <Quote/> tag to the HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citeccyr/xml-quote-md-to-html.git"
+  },
+  "keywords": [
+    "xml",
+    "md",
+    "markdown",
+    "html",
+    "quote",
+    "cli",
+    "convert"
+  ],
+  "author": "Sergey N <mrauhu@yandex.ru>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/citeccyr/xml-quote-md-to-html/issues"
+  },
+  "homepage": "https://github.com/citeccyr/xml-quote-md-to-html#readme"
+}
