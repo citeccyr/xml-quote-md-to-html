@@ -28,6 +28,7 @@
   "homepage": "https://github.com/citeccyr/xml-quote-md-to-html#readme",
   "dependencies": {
     "camaro": "^3.0.8",
+    "commander": "^2.17.1",
     "markdown-it": "^8.4.2"
   }
 }
