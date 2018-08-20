@@ -24,7 +24,7 @@ program
   .description('Defaults:' +
     '\n    input.xml\t- STDIN' +
     '\n    output.html\t- STDOUT')
-  .option('-o, --output [result.html]', 'Output HTML result (default: STDOUT)')
+  .option('-o, --output [output.html]', 'Output HTML result (default: STDOUT)')
   .option('-q, --quote [xpath]', 'XPath for extraction of the markdown quote', '/root/Linkage/Object/Annotation/Quote')
   .arguments('[input.xml]')
   .action(action);
