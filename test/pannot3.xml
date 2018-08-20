@@ -1,0 +1,52 @@
+<root>
+   <Linkage>
+      <Object>
+         <Annotation>
+            <Prefix>2012b). In contrastwith typical </Prefix>
+            <End>6304</End>
+            <Exact>collaborative tagging at Socionet</Exact>
+            <Suffix> thesemantic linkage technique u</Suffix>
+            <Start>6271</Start>
+            <Quote>Look at diagrams at [http://tabbles.net/what-is-it/whats-tabbles/](http://tabbles.net/what-is-it/whats-tabbles/)  
+![like this one](http://tabbles.net/images/stories/web_v2/new_pic_dragndrop.png)</Quote>
+         </Annotation>
+         <To>
+            <DataType>paper</DataType>
+            <Handle>repec:rus:mqijxk:31</Handle>
+            <Uri>http://sparinov.socionet.ru/files/parinov_kogalovsky-submitted-corrected-v7.pdf</Uri>
+         </To>
+         <Data>
+            <Metrics>
+               <URI>/home/sparinov/public_html/xml/lnzjic</URI>
+               <TypeAttr>
+                  <Code>spz:sparinov:lnzjic:none</Code>
+                  <Value>отношение не задано</Value>
+               </TypeAttr>
+               <Name>Классификатор научных отношений без детализации</Name>
+            </Metrics>
+         </Data>
+         <Group>__world__</Group>
+         <From>
+            <DataType>person</DataType>
+            <Handle>repec:per:pers:ppa6</Handle>
+         </From>
+      </Object>
+   </Linkage>
+   <SeriesID>ppa6</SeriesID>
+   <Template-Type>linkage</Template-Type>
+   <Date>
+      <Creation>2016-6-3</Creation>
+      <Revision>2016-6-3</Revision>
+   <Entry>2016-06-04</Entry><Change>2016-06-04</Change>
+</Date>
+   <Title>Recent results on collaborative tagging</Title>
+   <DocID>pannot3</DocID>
+   <Provider>
+      <Name>Socionet</Name>
+   </Provider>
+   <Author>
+      <Name>Sergei Parinov</Name>
+      <Handle>repec:per:pers:ppa6</Handle>
+   </Author>
+   <Handle>spz:ras-repec:ppa6:pannot3</Handle>
+</root>
