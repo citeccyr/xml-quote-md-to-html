@@ -3,8 +3,9 @@
 
 > Convert the Markdown content in the XML's `<Quote>` tag to the HTML
 
-Use it with [Node.js](https://nodejs.org/) version 10+.
+Node.js private module for extracting the Markdown content from XML via XPath and converting it to the HTML in a terminal.
 
+Based on [Camaro](https://github.com/tuananh/camaro) and [Markdown-it](https://github.com/markdown-it/markdown-it) libraries.
 
 ## Table of Contents
 
@@ -14,6 +15,11 @@ Use it with [Node.js](https://nodejs.org/) version 10+.
 - [License](#license)
 
 ## Install
+
+### Prerequisites
+
+You need [Node.js](https://nodejs.org/) version 10+. Then install node module globally:
+
 
 ```bash
 npm install --global github.com/citeccyr/xml-quote-md-to-html
@@ -53,6 +59,29 @@ type input.xml | xml-quote-md-to-html
 
 ```bash
 xml-quote-md-to-html input.xml -q "//Quote" 
+```
+
+### Show help
+
+```bash
+xml-quote-md-to-html --help
+```
+
+```
+
+  Usage: xml-quote-md-to-html [options] [input.xml]
+
+  Defaults:
+    input.xml   - STDIN
+    output.html - STDOUT
+
+  Options:
+
+    -v, --version               output the version number
+    -o, --output [output.html]  Output HTML result (default: STDOUT)
+    -q, --quote [xpath]         XPath for extraction of the markdown quote (default: /root/Linkage/Object/Annotation/Quote)
+    -h, --help                  output usage information
+
 ```
 
 ## Contribute
