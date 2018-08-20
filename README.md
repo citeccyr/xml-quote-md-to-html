@@ -22,7 +22,7 @@ You need [Node.js](https://nodejs.org/) version 10+. Then install node module gl
 
 
 ```bash
-npm install --global github.com/citeccyr/xml-quote-md-to-html
+npm install --global citeccyr/xml-quote-md-to-html
 ```
 
 ## Usage
